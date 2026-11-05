@@ -47,7 +47,6 @@ export default function Marca3D() {
           </div>
         </div>
       </div>
-      <p className="mt-3 text-xs text-ink/60">Boa leitura começa com um bom café.</p>
     </div>
   );
 }

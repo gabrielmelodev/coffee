@@ -5,8 +5,8 @@ const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
 const out = (t) => 1 - Math.pow(1 - t, 3);
 
 const LIVROS = [
-  { id: 'conceito', nome: 'Conceito', w: 84, cor: '#7B4E2F', txt: '#EFE7D9', dx: -3, r: -1.2 },
-  { id: 'produtos', nome: 'Produtos', w: 70, cor: '#D7C2A3', txt: '#1A1A1A', dx: 4, r: 1.5 },
+  { id: 'produtos', nome: 'Cardápio', w: 84, cor: '#7B4E2F', txt: '#EFE7D9', dx: -3, r: -1.2 },
+  { id: 'publico', nome: 'Público', w: 70, cor: '#D7C2A3', txt: '#1A1A1A', dx: 4, r: 1.5 },
   { id: 'juridico', nome: 'Jurídico', w: 78, cor: '#1A1A1A', txt: '#EFE7D9', dx: -2, r: -0.8 },
   { id: 'capital', nome: 'Capital', w: 64, cor: '#EFE7D9', txt: '#4B2E1A', dx: 5, r: 1.8 },
   { id: 'socioambiental', nome: 'Impacto', w: 74, cor: '#4B2E1A', txt: '#EFE7D9', dx: -4, r: -1.4 },
